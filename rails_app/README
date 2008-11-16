@@ -1,0 +1,35 @@
+Twitter Vote Report
+https://votereport.pbwiki.com
+
+This application hosts a set of mechanisms desgined to pull polling place reports in from multiple sources, including:
+
+Twitter
+  Polls http://twittervision.com/votereport.json for latest #votereport Tweets
+
+SMS
+  Accepts input from Mozes for SMS messages that contain #votereport
+
+Telephone
+  Accepts phone calls into an Asterisk system
+  See adhearsion/components/vote_report/lib/votereport.rb
+    
+iPhone
+  Accepts reports from the VoteReport dedicated iPhone application
+
+
+--
+LICENSE
+Made available under the MIT License.
+
+Copyright 2008 by the following authors and contributors:
+
+David Troy, dave@roundhousetech.com
+Andrew Turner, andrew@highearthorbit.com
+Billy Gray
+Cory Forsyth
+John Trupiano
+Bryan Liles
+Brendan O'Connor
+Deanna Zandt
+Nat Freitas
+Tony Herrera

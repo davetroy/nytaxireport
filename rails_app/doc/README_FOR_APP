@@ -1,0 +1,15 @@
+Twitter Vote Report
+All code (c) 2008 David Troy (dave@roundhousetech.com) unless otherwise noted
+Made available under the MIT License
+--
+HeatMapAPI key:
+d88ec56e-80f6-4390-a26d-fa423a0d08dd
+
+Notes:
+
+To install git for CentOS 5, use the EPEL repository:
+rpm -Uvh http://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-3.noarch.rpm
+yum -y install git
+
+MySQL native ruby gem:
+gem install mysql -- --with-mysql-include=/usr/include/mysql --with-mysql-lib=/usr/lib/mysql
